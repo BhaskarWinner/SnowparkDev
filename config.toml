@@ -1,0 +1,16 @@
+default_connection_name="trail"
+
+[cli.logs]
+save_logs = true
+path = "/home/codespace/.config/snowflake/logs" 
+level = "info"
+
+[connections.trail]
+account="no94168.central-india.azure"
+user="BHASKARAPRILFINALLAST" 
+password="Bhaskar@29112027"
+warehouse="COMPUTE_WH"
+database="SNOWPARK"
+schema="PUBLIC"
+role="ACCOUNTADMIN"
+
