@@ -1,0 +1,1 @@
+create table SNOWPARK.public.test_table(a varchar);
