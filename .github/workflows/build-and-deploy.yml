@@ -35,8 +35,7 @@ jobs:
         env:
           SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWSQL_ACCOUNT_DEV }}
           SNOWFLAKE_USER: ${{ secrets.SNOWSQL_USER_DEV }}
-          SNOWFLAKE_PASSWORD: ${{ secrets.SNOWSQL_PASSWORD_DEV }}
-          SNOWFLAKE_ROLE: ${{ secrets.SNOWSQL_ROLE_DEV }}
+          SNOWFLAKE_PASSWORD: ${{ secrets.SNOWSQL_PWD_DEV }}
           SNOWFLAKE_WAREHOUSE: ${{ secrets.SNOWSQL_WAREHOUSE_DEV }}
           SNOWFLAKE_DATABASE: ${{ secrets.SNOWSQL_DATABASE_DEV }}
           SNOWFLAKE_SCHEMA: ${{ secrets.SNOWSQL_SCHEMA_DEV }}
@@ -46,8 +45,7 @@ jobs:
         env:
           SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWSQL_ACCOUNT_DEV }}
           SNOWFLAKE_USER: ${{ secrets.SNOWSQL_USER_DEV }}
-          SNOWFLAKE_PASSWORD: ${{ secrets.SNOWSQL_PASSWORD_DEV }}
-          SNOWFLAKE_ROLE: ${{ secrets.SNOWSQL_ROLE_DEV }}
+          SNOWFLAKE_PASSWORD: ${{ secrets.SNOWSQL_PWD_DEV }}
           SNOWFLAKE_WAREHOUSE: ${{ secrets.SNOWSQL_WAREHOUSE_DEV }}
           SNOWFLAKE_DATABASE: ${{ secrets.SNOWSQL_DATABASE_DEV }}
           SNOWFLAKE_SCHEMA: ${{ secrets.SNOWSQL_SCHEMA_DEV }}
